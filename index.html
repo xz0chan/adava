@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+            crossorigin="anonymous"
+        />
+        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+        />
+        <title>Adava: Odkryj świat</title>
+
+        <meta
+            name="description"
+            content="Oferujemy wycieczki po Układzie Słonecznym i nie tylko"
+        />
+    </head>
+    <body
+        data-bs-spy="scroll"
+        data-bs-target="#navigation-main"
+        data-bs-offset="100"
+        tabindex="0"
+    >
+        <div class="background d-flex align-items-stretch py-2">
+            <div class="container d-flex my-5">
+                <div class="row align-items-center w-100 g-0">
+                    <div
+                        class="col-12 col-md-5 text-center text-md-end pe-3 rounded-start text-white bg-dark-transparent"
+                    >
+                        <div class="position-relative pb-5">
+                            <img
+                                src="image/adava.png"
+                                alt="Logo Adava"
+                                height="100"
+                                class="position-absolute top-0 start-50 translate-middle position-absolute"
+                            />
+                        </div>
+                        <h1 class="display-3">Adava</h1>
+                        <p class="lead">
+                            Odkryj świat z Adavą. Zachwyć się miejscami, w
+                            których jeszcze Cię nie było.
+                        </p>
+
+                        <p>
+                            <a
+                                class="btn btn-lg btn-outline-light rounded-3 border-2"
+                                href="#kontakt"
+                                >Sprawdź nas</a
+                            >
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-7 mt-3 mt-md-0">
+                        <div
+                            class="carousel slide"
+                            id="herocarousel"
+                            data-bs-ride="carousel"
+                        >
+                            <div class="carousel-indicators">
+                                <button
+                                    type="button"
+                                    data-bs-target="#herocarousel"
+                                    data-bs-slide-to="0"
+                                    class="active"
+                                    aria-current="true"
+                                    aria-label="Slajd: Inne planety"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#herocarousel"
+                                    data-bs-slide-to="1"
+                                    aria-label="Slajd: Inne światy"
+                                ></button>
+                                <button
+                                    type="button"
+                                    data-bs-target="#herocarousel"
+                                    data-bs-slide-to="2"
+                                    aria-label="Slajd: Inne wymiary"
+                                ></button>
+                            </div>
+                            <div class="carousel-inner rounded-3">
+                                <div class="carousel-item active">
+                                    <img
+                                        src="image/slider/1.jpg"
+                                        class="d-block w-100"
+                                        alt="Inne planety"
+                                    />
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="image/slider/2.jpg"
+                                        class="d-block w-100"
+                                        alt="Inne światy"
+                                    />
+                                </div>
+                                <div class="carousel-item">
+                                    <img
+                                        src="image/slider/3.jpg"
+                                        class="d-block w-100"
+                                        alt="Inne wymiary"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="visually-hidden-focusable" href="#o-nas">Pomiń nawigację</a>
+        <div
+            id="navigation-main"
+            class="navbar navbar-expand-lg navbar-light bg-light sticky-top"
+        >
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img
+                        src="image/adava.png"
+                        alt="Logo Adava"
+                        height="48"
+                        class="d-inline-block"
+                    />
+                    <span class="vertical-minus1">Adava</span>
+                </a>
+
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navigation"
+                    aria-controls="navigation"
+                    aria-expanded="false"
+                    aria-label="Przełącz nawigację"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse me-auto mt-3 mt-lg-0"
+                    id="navigation"
+                >
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbar-o-nas"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                O nas
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbar-o-nas"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#o-nas"
+                                        >Czym się zajmujemy</a
+                                    >
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#zespol"
+                                        >Zespół</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbar-uslugi"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                Usługi
+                            </a>
+                            <ul
+                                class="dropdown-menu"
+                                aria-labelledby="navbar-uslugi"
+                            >
+                                <li>
+                                    <a class="dropdown-item" href="#uslugi"
+                                        >Nasze usługi</a
+                                    >
+                                </li>
+                                <li>
+                                    <a
+                                        class="dropdown-item"
+                                        href="#pytania-odpowiedzi"
+                                        >Pytania i odpowiedzi</a
+                                    >
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cennik">Cennik</a>
+                        </li>
+                    </ul>
+
+                    <a
+                        class="ms-auto btn btn-outline-success border-2 rounded-pill my-4 my-lg-0"
+                        href="#kontakt"
+                    >
+                        Napisz do nas
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div id="o-nas" class="">
+                <h2
+                    class="text-center display-6 theme-text-secondary text-uppercase mb-5"
+                >
+                    O nas
+                </h2>
+
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-5">
+                        <p class="lead">
+                            Założona w 1998, firma Adava jako pierwsza w Polsce
+                            organizuje wycieczki międzywymiarowe i
+                            międzyświatowe. Przeżycia z Marsa czy Jowisza nie są
+                            dla nas wyzwaniem.
+                            <strong class="theme-text-primary"
+                                >Pływanie w jeziorach Tytana czy chmurach
+                                Wenus</strong
+                            >
+                            to nasza specjalizacja.
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-7">
+                        <div
+                            id="label-total"
+                            class="progress-label theme-text-secondary"
+                        >
+                            Zrealizowanych wycieczek
+                            <span class="float-end">200</span>
+                        </div>
+                        <div class="progress mb-3">
+                            <div
+                                class="progress-bar theme-bg-secondary"
+                                role="progressbar"
+                                style="width: 100%"
+                                aria-labelledby="label-total"
+                                aria-valuenow="200"
+                                aria-valuemin="0"
+                                aria-valuemax="200"
+                            ></div>
+                        </div>
+
+                        <div
+                            id="label-mars"
+                            class="progress-label theme-text-primary"
+                        >
+                            Mars
+                            <span class="float-end">100</span>
+                        </div>
+                        <div
+                            id="label-titan"
+                            class="progress-label theme-text-lightyellow"
+                        >
+                            Tytan
+                            <span class="float-end">40</span>
+                        </div>
+                        <div
+                            id="label-jupiter"
+                            class="progress-label theme-text-darkyellow"
+                        >
+                            Jowisz
+                            <span class="float-end">24</span>
+                        </div>
+                        <div class="progress mb-3">
+                            <div
+                                class="progress-bar theme-bg-primary"
+                                role="progressbar"
+                                style="width: 50%"
+                                aria-labelledby="label-mars"
+                                aria-valuenow="100"
+                                aria-valuemin="0"
+                                aria-valuemax="200"
+                            ></div>
+                            <div
+                                class="progress-bar theme-bg-lightyellow"
+                                role="progressbar"
+                                style="width: 20%"
+                                aria-labelledby="label-titan"
+                                aria-valuenow="40"
+                                aria-valuemin="0"
+                                aria-valuemax="200"
+                            ></div>
+                            <div
+                                class="progress-bar theme-bg-darkyellow"
+                                role="progressbar"
+                                style="width: 12%"
+                                aria-labelledby="label-jupiter"
+                                aria-valuenow="24"
+                                aria-valuemin="0"
+                                aria-valuemax="200"
+                            ></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-uslugi my-5 theme-bg-lightyellow py-5">
+            <div class="container text-center">
+                <div id="uslugi">
+                    <h2
+                        class="theme-text-secondary display-6 text-uppercase mb-5"
+                    >
+                        Usługi
+                    </h2>
+
+                    <div class="row align-items-stretch">
+                        <div
+                            class="col-12 col-sm-6 col-lg-3 d-flex align-items-stretch mb-4 mb-lg-0"
+                        >
+                            <div
+                                class="service shadow-lg theme-bg-light text-center p-3 rounded w-100"
+                            >
+                                <p
+                                    class="text-center display-6 theme-text-secondary"
+                                >
+                                    <i class="bi bi-toggles"></i>
+                                </p>
+
+                                <h3 class="fs-4 theme-text-primary">
+                                    Dopasowanie
+                                </h3>
+                                <p>
+                                    Naszą usługę dopasujemy do Twoich osobistych
+                                    preferencji.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-sm-6 col-lg-3 d-flex align-items-stretch mb-4 mb-lg-0"
+                        >
+                            <div
+                                class="service shadow-lg theme-bg-light text-center p-3 rounded w-100"
+                            >
+                                <p
+                                    class="text-center display-6 theme-text-secondary"
+                                >
+                                    <i class="bi bi-gem"></i>
+                                </p>
+
+                                <h3 class="fs-4 theme-text-primary">
+                                    Przeżycia
+                                </h3>
+                                <p>
+                                    Oferujemy atrakcje takie, jak przelot
+                                    balonami nad planetami, skoki do czarnej
+                                    dziury, strzelanie kometami, rodeo na
+                                    asteroidzie.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-sm-6 col-lg-3 d-flex align-items-stretch mb-4 mb-lg-0"
+                        >
+                            <div
+                                class="service shadow-lg theme-bg-primary text-center p-3 rounded w-100 theme-text-light"
+                            >
+                                <p
+                                    class="text-center display-6 theme-text-secondary"
+                                >
+                                    <i
+                                        class="bi bi-piggy-bank-fill theme-text-darkyellow"
+                                    ></i>
+                                </p>
+
+                                <h3 class="fs-4">Cena</h3>
+                                <p>
+                                    Każde z naszych wydarzeń jest przystępne
+                                    cenowo dla wszystkich.
+                                </p>
+                            </div>
+                        </div>
+                        <div
+                            class="col-12 col-sm-6 col-lg-3 d-flex align-items-stretch mb-4 mb-lg-0"
+                        >
+                            <div
+                                class="service shadow-lg theme-bg-light text-center p-3 rounded w-100"
+                            >
+                                <p
+                                    class="text-center display-6 theme-text-secondary"
+                                >
+                                    <i class="bi bi-person-bounding-box"></i>
+                                </p>
+
+                                <h3 class="fs-4 theme-text-primary">
+                                    Wspomnienia
+                                </h3>
+                                <p>
+                                    Rejestrujemy wszystkie Twoje przygody.
+                                    Obejrzysz je potem w witrualnej
+                                    rzeczywistości w dowolnym momencie.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div id="portfolio" class="text-center">
+                <h2 class="display-6 theme-text-secondary text-uppercase mb-5">
+                    Portfolio
+                </h2>
+                <div class="row" data-masonry='{"percentPosition": true }'>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border"
+                        >
+                            <img
+                                src="https://placekitten.com/300/600"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 1"
+                            />
+                            <figcaption class="figure-caption text-center mb-2">
+                                Podpis pod obrazem.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border"
+                        >
+                            <img
+                                src="https://placekitten.com/300/300"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 2"
+                            />
+                            <figcaption class="figure-caption text-center mb-2">
+                                Inny podpis.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border theme-border-primary theme-bg-primary"
+                        >
+                            <img
+                                src="https://placekitten.com/600/300"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 3"
+                            />
+                            <figcaption
+                                class="figure-caption text-center mb-2 theme-text-light"
+                            >
+                                Dłuższy podpis.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border"
+                        >
+                            <img
+                                src="https://placekitten.com/300/150"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 4"
+                            />
+                            <figcaption class="figure-caption text-center mb-2">
+                                Ten podpis ma dwie linie najprawdopodobniej.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border"
+                        >
+                            <img
+                                src="https://placekitten.com/420/300"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 5"
+                            />
+                            <figcaption class="figure-caption text-center mb-2">
+                                Jeszcze jeden przykład.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border"
+                        >
+                            <img
+                                src="https://placekitten.com/400/300"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 6"
+                            />
+                            <figcaption class="figure-caption text-center mb-2">
+                                Podpis, podpis, podpis.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border"
+                        >
+                            <img
+                                src="https://placekitten.com/300/200"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 7"
+                            />
+                            <figcaption class="figure-caption text-center mb-2">
+                                Inny podpis.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border theme-border-secondary theme-bg-secondary"
+                        >
+                            <img
+                                src="https://placekitten.com/300/250"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 8"
+                            />
+                            <figcaption
+                                class="figure-caption text-center mb-2 theme-text-light"
+                            >
+                                Ten podpis opisuje kota.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-lg-4 mb-4">
+                        <figure
+                            class="figure placeholder-item w-100 rounded border"
+                        >
+                            <img
+                                src="https://placekitten.com/300/200"
+                                class="w-100 figure-img img-fluid rounded-top"
+                                alt="Element 9"
+                            />
+                            <figcaption class="figure-caption text-center mb-2">
+                                Ten opisuje obraz powyżej.
+                                <a
+                                    href="#"
+                                    class="btn btn-outline-light rounded-circle position-absolute end-0 top-0 mt-2 me-3"
+                                >
+                                    <i
+                                        class="bi bi-link-45deg"
+                                        title="Link do realizacji"
+                                    ></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="theme-bg-darkyellow mt-5 py-5">
+            <div class="container">
+                <div id="zespol">
+                    <h2
+                        class="display-6 theme-text-secondary text-uppercase mb-5 text-center"
+                    >
+                        Zespół
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div
+                                class="team-card theme-bg-light rounded-3 shadow-s mb-4"
+                            >
+                                <div class="row g-0 items-align-center">
+                                    <div class="col-4 px-2 py-2">
+                                        <img
+                                            src="https://placekitten.com/300/300"
+                                            class="position-relative top-50 start-50 translate-middle my-auto img-fluid rounded-circle border border-light"
+                                            alt="Członek zespołu 1"
+                                        />
+                                    </div>
+                                    <div class="col-8 py-3 px-2">
+                                        <h3 class="fs-5">
+                                            Jan Kowalski
+                                            <br />
+                                            <small
+                                                class="theme-text-secondary fw-normal"
+                                                >Chief Executive Officer</small
+                                            >
+                                        </h3>
+                                        <p>
+                                            Odpowiada za całość przedsięwzięcia.
+                                        </p>
+                                        <p class="mb-0">
+                                            <small>
+                                                <a
+                                                    href="mailto:jan.kowalski@adava.com"
+                                                    >jan.kowalski@adava.com</a
+                                                >
+                                                <br />
+                                                +48 555 555 555
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                class="team-card theme-bg-light rounded-3 shadow-s mb-4"
+                            >
+                                <div class="row g-0 items-align-center">
+                                    <div class="col-4 px-2 py-2">
+                                        <img
+                                            src="https://placekitten.com/300/300"
+                                            class="position-relative top-50 start-50 translate-middle my-auto img-fluid rounded-circle border border-light"
+                                            alt="Członek zespołu 1"
+                                        />
+                                    </div>
+                                    <div class="col-8 py-3 px-2">
+                                        <h3 class="fs-5">
+                                            Ewa Dąbrowska
+                                            <br />
+                                            <small
+                                                class="theme-text-secondary fw-normal"
+                                                >Chief Sales Officer</small
+                                            >
+                                        </h3>
+                                        <p>Odpowiada za dział sprzedaży.</p>
+                                        <p class="mb-0">
+                                            <small>
+                                                <a
+                                                    href="mailto:ewa.dabrowska@adava.com"
+                                                    >ewa.dabrowska@adava.com</a
+                                                >
+                                                <br />
+                                                +48 555 555 555
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                class="team-card theme-bg-light rounded-3 shadow-s mb-4"
+                            >
+                                <div class="row g-0 items-align-center">
+                                    <div class="col-4 px-2 py-2">
+                                        <img
+                                            src="https://placekitten.com/300/300"
+                                            class="position-relative top-50 start-50 translate-middle my-auto img-fluid rounded-circle border border-light"
+                                            alt="Członek zespołu 1"
+                                        />
+                                    </div>
+                                    <div class="col-8 py-3 px-2">
+                                        <h3 class="fs-5">
+                                            Jerzy Nowak
+                                            <br />
+                                            <small
+                                                class="theme-text-secondary fw-normal"
+                                                >Product Manager</small
+                                            >
+                                        </h3>
+                                        <p>Odpowiada za wyjazdy.</p>
+                                        <p class="mb-0">
+                                            <small>
+                                                <a
+                                                    href="mailto:jerzy.nowak@adava.com"
+                                                    >jerzy.nowak@adava.com</a
+                                                >
+                                                <br />
+                                                +48 555 555 555
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div
+                                class="team-card theme-bg-light rounded-3 shadow-s mb-4"
+                            >
+                                <div class="row g-0 items-align-center">
+                                    <div class="col-4 px-2 py-2">
+                                        <img
+                                            src="https://placekitten.com/300/300"
+                                            class="position-relative top-50 start-50 translate-middle my-auto img-fluid rounded-circle border border-light"
+                                            alt="Członek zespołu 1"
+                                        />
+                                    </div>
+                                    <div class="col-8 py-3 px-2">
+                                        <h3 class="fs-5">
+                                            Anna Kowalska
+                                            <br />
+                                            <small
+                                                class="theme-text-secondary fw-normal"
+                                                >Chief Financial Officer</small
+                                            >
+                                        </h3>
+                                        <p>Odpowiada za finanse organizacji.</p>
+                                        <p class="mb-0">
+                                            <small>
+                                                <a
+                                                    href="mailto:anna.kowalska@adava.com"
+                                                    >anna.kowalska@adava.com</a
+                                                >
+                                                <br />
+                                                +48 555 555 555
+                                            </small>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="theme-bg-secondary py-5">
+            <div class="container">
+                <div id="pytania-odpowiedzi">
+                    <h2
+                        class="display-6 theme-text-light text-uppercase mb-5 text-center"
+                    >
+                        Pytania i odpowiedzi
+                    </h2>
+                    <div class="row align-items-center">
+                        <div class="col-md-7 mb-4 mb-md-0">
+                            <div class="w-100 p-1 rounded-3 theme-bg-light">
+                                <div class="accordion accordion-flush" id="qa">
+                                    <div class="accordion-item">
+                                        <h3
+                                            class="accordion-header"
+                                            id="qa-heading1"
+                                        >
+                                            <button
+                                                class="accordion-button theme-text-secondary"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#qa-collapse1"
+                                                aria-expanded="true"
+                                                aria-controls="qa-collapse1"
+                                            >
+                                                Czy są zniżki rodzinne?
+                                            </button>
+                                        </h3>
+                                        <div
+                                            id="qa-collapse1"
+                                            class="accordion-collapse collapse show"
+                                            aria-labelledby="qa-heading1"
+                                        >
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h3
+                                            class="accordion-header"
+                                            id="qa-heading2"
+                                        >
+                                            <button
+                                                class="accordion-button collapsed theme-text-secondary"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#qa-collapse2"
+                                                aria-expanded="false"
+                                                aria-controls="qa-collapse2"
+                                            >
+                                                Jak się przygotować do
+                                                wycieczki?
+                                            </button>
+                                        </h3>
+                                        <div
+                                            id="qa-collapse2"
+                                            class="accordion-collapse collapse"
+                                            aria-labelledby="qa-heading2"
+                                        >
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2
+                                            class="accordion-header"
+                                            id="qa-heading3"
+                                        >
+                                            <button
+                                                class="accordion-button collapsed theme-text-secondary"
+                                                type="button"
+                                                data-bs-toggle="collapse"
+                                                data-bs-target="#qa-collapse3"
+                                                aria-expanded="false"
+                                                aria-controls="qa-collapse3"
+                                            >
+                                                Co zabrać ze sobą?
+                                            </button>
+                                        </h2>
+                                        <div
+                                            id="qa-collapse3"
+                                            class="accordion-collapse collapse"
+                                            aria-labelledby="qa-heading3"
+                                        >
+                                            <div class="accordion-body">
+                                                <p>Lorem ipsum...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="image-background-qa rounded-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5 text-center">
+            <div id="cennik">
+                <h2 class="display-6 theme-text-secondary text-uppercase mb-5">
+                    Cennik
+                </h2>
+                <div class="row g-0 align-items-stretch">
+                    <div
+                        class="col-md-4 card featured-card pricing-card order-md-2 mb-4"
+                    >
+                        <div class="card-header theme-bg-secondary">
+                            <h3 class="card-title theme-text-light">Jowisz</h3>
+                            <h4
+                                class="card-subtitle mb-2 theme-text-lightyellow"
+                            >
+                                1999 PLN
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush text-start">
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Statek
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Paliwo
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Dwa
+                                    tygodnie
+                                </li>
+                            </ul>
+
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum...</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a
+                                    class="btn btn-lg btn-outline-success border-2 rounded-pill"
+                                    href="#kontakt"
+                                    >Napisz do nas</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card order-md-1 pricing-card mb-5">
+                        <div class="card-header">
+                            <h3 class="card-title theme-text-primary">Mars</h3>
+                            <h4 class="card-subtitle mb-2 text-muted">
+                                1999 PLN
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush text-start">
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Statek
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Paliwo
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Tydzień
+                                </li>
+                            </ul>
+
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum...</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a
+                                    class="btn btn-lg btn-outline-success border-2 rounded-pill"
+                                    href="#kontakt"
+                                    >Napisz do nas</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 card order-md-3 pricing-card mb-5">
+                        <div class="card-header">
+                            <h3 class="card-title theme-text-darkyellow">
+                                Tytan
+                            </h3>
+                            <h4 class="card-subtitle mb-2 text-muted">
+                                2999 PLN
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush text-start">
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Statek
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Paliwo
+                                </li>
+                                <li class="list-group-item">
+                                    <i class="bi bi-check-circle"></i> Trzy
+                                    tygodnie
+                                </li>
+                            </ul>
+
+                            <div class="card-body">
+                                <p class="card-text">Lorem ipsum...</p>
+                            </div>
+
+                            <div class="card-body">
+                                <a
+                                    class="btn btn-lg btn-outline-success border-2 rounded-pill"
+                                    href="#kontakt"
+                                    >Napisz do nas</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-5">
+            <div id="kontakt">
+                <h2
+                    class="display-6 theme-text-secondary text-uppercase mb-5 text-center"
+                >
+                    Kontakt
+                </h2>
+
+                <form
+                    action="mailto:jan.kowalski@adava.com"
+                    method="GET"
+                    enctype="text/plain"
+                >
+                    <div class="row align-items-center">
+                        <div class="col-md-7 mb-3">
+                            <div class="mb-3">
+                                <label class="form-label" for="subject"
+                                    >Temat wiadomości</label
+                                >
+                                <input
+                                    class="form-control"
+                                    type="text"
+                                    name="subject"
+                                    id="subject"
+                                    placeholder="Wyjazd na Jowisza..."
+                                />
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label" for="subject"
+                                    >Treść wiadomości</label
+                                >
+                                <textarea
+                                    class="form-control"
+                                    name="body"
+                                    id="body"
+                                ></textarea>
+                            </div>
+                        </div>
+
+                        <div class="col-md-5 mb-3">
+                            <div class="card w-100 text-center">
+                                <h5
+                                    class="card-header theme-bg-secondary theme-text-light"
+                                >
+                                    Gwarancja odpowiedzi
+                                </h5>
+                                <div class="card-body theme-bg-lightyellow">
+                                    Zazwyczaj odpowiadamy na wiadomości w
+                                    przciągu dnia roboczego.
+                                </div>
+
+                                <div class="card-body theme-bg-light">
+                                    <button class="btn btn-outline-success">
+                                        Wyślij
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="theme-bg-secondary py-5 theme-text-light">
+            <div class="container" id="footer">
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <img
+                            class="img-fluid"
+                            src="image/adava2.png"
+                            alt="Logo Adava"
+                        />
+
+                        <address>
+                            ul. Testowa 21<br />
+
+                            32-232 Testowo<br />
+
+                            <br />
+
+                            <a
+                                class="link-light"
+                                href="mailto:kontakt@adava.com"
+                            >
+                                kontakt@adava.com </a
+                            ><br />
+
+                            +48 123 456 789
+                        </address>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <h3 class="">Znajdziesz nas na</h3>
+
+                        <div class="fs-3">
+                            <a class="link-light" href="#"
+                                ><i class="bi bi-facebook"></i
+                            ></a>
+
+                            <a class="link-light" href="#"
+                                ><i class="bi bi-instagram"></i
+                            ></a>
+
+                            <a class="link-light" href="#"
+                                ><i class="bi bi-linkedin"></i
+                            ></a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-3">
+                        <h3 class="">Menu</h3>
+
+                        <ul>
+                            <li>
+                                <a class="link-light" href="#o-nas">O nas</a>
+                            </li>
+
+                            <li>
+                                <a class="link-light" href="#uslugi">Usługi</a>
+                            </li>
+
+                            <li>
+                                <a class="link-light" href="#portfolio"
+                                    >Portfolio</a
+                                >
+                            </li>
+
+                            <li>
+                                <a class="link-light" href="#cennik">Cennik</a>
+                            </li>
+
+                            <li>
+                                <a class="link-light" href="#kontakt"
+                                    >Napisz do nas</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="text-center mt-3">
+                    Copyright © 2022... Wszystkie prawa zastrzeżone.
+                </div>
+            </div>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+            integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/imagesloaded@4.1.4/imagesloaded.min.js"></script>
+        <script type="text/javascript">
+            var item = document.querySelector("[data-masonry]");
+
+            imagesLoaded(item, function () {
+                Outlayer.data(item).layout();
+            });
+        </script>
+    </body>
+</html>
